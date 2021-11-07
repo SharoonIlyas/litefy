@@ -1,0 +1,116 @@
+<testExecutions version="1">
+  <file path="src/app/components/youtube-player/youtube-player.component.spec.ts">
+    <testCase name="YoutubePlayerComponent should create" duration="366">
+      <failure message="Error">Error: The pipe 'translate' could not be found!
+    at getPipeDef$1 (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24765:1)
+    at ɵɵpipe (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24722:1)
+    at YoutubePlayerComponent_Template (ng:///YoutubePlayerComponent.js:183:9)
+    at executeTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7498:1)
+    at renderView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7305:1)
+    at renderComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8561:1)
+    at renderChildComponents (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7179:1)
+    at renderView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7330:1)
+    at ComponentFactory$1.create (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24089:1)
+    at initComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1996:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9877/_karma_webpack_/src/app/components/youtube-player/youtube-player.component.spec.ts:25:27)
+    at ZoneDelegate.invoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push.QpwO.ProxyZoneSpec.onInvoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/components/volume-box/volume-box.component.spec.ts">
+    <testCase name="VolumeBoxComponent should create" duration="7">
+      <failure message="Error">Error: Unexpected value 'HttpClient' imported by the module 'DynamicTestModule'. Please add an @NgModule annotation.
+    at verifySemanticsOfNgModuleDef (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25971:1)
+    at http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25982:1
+    at &lt;Jasmine&gt;
+    at verifySemanticsOfNgModuleDef (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25980:1)
+    at Function.get (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:25943:1)
+    at R3TestBedCompiler.applyProviderOverridesToModule (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1331:1)
+    at R3TestBedCompiler.compileTestModule (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1576:1)
+    at R3TestBedCompiler.finalize (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1185:1)
+    at TestBedRender3.get testModuleRef [as testModuleRef] (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:2019:1)
+    at TestBedRender3.inject (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1943:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9877/_karma_webpack_/src/app/components/volume-box/volume-box.component.spec.ts:25:23)
+    at ZoneDelegate.invoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push.QpwO.ProxyZoneSpec.onInvoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/components/shearch-box/shearch-box.component.spec.ts">
+    <testCase name="ShearchBoxComponent should create" duration="82"/>
+  </file>
+  <file path="src/app/components/player/player.component.spec.ts">
+    <testCase name="PlayerComponent should create" duration="33"/>
+  </file>
+  <file path="src/app/pages/settings/settings.component.spec.ts">
+    <testCase name="SettingsComponent should create" duration="17">
+      <failure message="Error">Error: The pipe 'translate' could not be found!
+    at getPipeDef$1 (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24765:1)
+    at ɵɵpipe (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24722:1)
+    at SettingsComponent_Template (ng:///SettingsComponent.js:50:9)
+    at executeTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7498:1)
+    at renderView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7305:1)
+    at renderComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8561:1)
+    at renderChildComponents (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7179:1)
+    at renderView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7330:1)
+    at ComponentFactory$1.create (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:24089:1)
+    at initComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:1996:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (http://localhost:9877/_karma_webpack_/src/app/pages/settings/settings.component.spec.ts:26:23)
+    at ZoneDelegate.invoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push.QpwO.ProxyZoneSpec.onInvoke (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/pages/search/search.component.spec.ts">
+    <testCase name="SearchComponent should create" duration="21"/>
+  </file>
+  <file path="src/app/components/language-switcher/language-switcher.component.spec.ts">
+    <testCase name="LanguageSwitcherComponent should create" duration="18"/>
+  </file>
+  <file path="src/app/components/header/header.component.spec.ts">
+    <testCase name="HeaderComponent should create" duration="26"/>
+  </file>
+  <file path="src/app/pages/home/home.component.spec.ts">
+    <testCase name="HomeComponent should create" duration="51"/>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="26"/>
+  </file>
+  <file path="src/app/pages/artist/artist.component.spec.ts">
+    <testCase name="ArtistComponent should get all info from artist" duration="61">
+      <failure message="Error">TypeError: Cannot read properties of null (reading 'find')
+    at ArtistComponent.canLoadImage (http://localhost:9877/_karma_webpack_/main.js:33549:26)
+    at ArtistComponent_div_0_Template (ng:///ArtistComponent.js:87:69)
+    at executeTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7498:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7367:1)
+    at refreshEmbeddedViews (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8468:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7391:1)
+    at refreshComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8514:1)
+    at refreshChildComponents (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7173:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7417:1)
+    at renderComponentOrTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7481:1)
+</failure>
+    </testCase>
+    <testCase name="ArtistComponent should create" duration="34"/>
+  </file>
+  <file path="src/app/components/content-list/content-list.component.spec.ts">
+    <testCase name="ContentListComponent should create" duration="23">
+      <failure message="Error">Uncaught [object Object] thrown
+</failure>
+    </testCase>
+    <testCase name="ContentListComponent testing getRootItem method" duration="13">
+      <failure message="Error">Uncaught TypeError: Cannot read properties of null (reading 'product') thrown
+</failure>
+    </testCase>
+  </file>
+</testExecutions>
