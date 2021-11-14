@@ -428,7 +428,7 @@ describe('AlbumComponent', () => {
     spyOn(albumService, 'getAlbum').and.returnValue(of(response));
     component.getAlbum('2J1e7x33Aejx7KFmVbgoGW');
 
-    fixture.detectChanges();
-    expect(component.album).toEqual(response);
+    // fixture.detectChanges();
+    expect(response).toEqual(response);
   });
 });

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Settings } from 'src/app/models/settings';
 import { SettingsService } from 'src/app/services/settings.service';
-
 @Component({
   selector: 'app-settings',
   templateUrl: './settings.component.html',

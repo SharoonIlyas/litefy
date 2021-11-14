@@ -31,13 +31,15 @@ import { AlbumComponent } from './pages/album/album.component';
 import { PlaylistComponent } from './pages/playlist/playlist.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { PodcastsComponent } from './pages/podcasts/podcasts.component';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import {TranslateLoader, TranslateModule, TranslatePipe, TranslateService} from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { LanguageSwitcherComponent } from './components/language-switcher/language-switcher.component';
 import { VolumeBoxComponent } from './components/volume-box/volume-box.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { YoutubePlayerComponent } from './components/youtube-player/youtube-player.component';
 import { UserProfileComponent } from './pages/user-profile/user-profile.component';
+import {TranslateServiceStub} from "./services/stubService";
+
 
 @NgModule({
   declarations: [
@@ -87,9 +89,12 @@ import { UserProfileComponent } from './pages/user-profile/user-profile.componen
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: TokenVerificationInterceptorService, multi: true },
-    PipesModule
+    PipesModule,
+      {provide: TranslateService, useClass: TranslateServiceStub}
+
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,
+  ]
 })
 export class AppModule { }
 
