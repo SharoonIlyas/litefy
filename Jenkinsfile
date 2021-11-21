@@ -1,4 +1,6 @@
 node{
+
+    tools {nodejs "nodejs"}
     stage("Checkout SCM"){
            git branch: 'tests', url: 'https://github.com/SharoonIlyas/litefy.git'
 
