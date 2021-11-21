@@ -1,64 +1,67 @@
 <testExecutions version="1">
-  <file path="src/app/components/player/player.component.spec.ts">
-    <testCase name="PlayerComponent should create" duration="186"/>
+  <file path="src/app/components/language-switcher/language-switcher.component.spec.ts">
+    <testCase name="LanguageSwitcherComponent should create" duration="1293"/>
   </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="11"/>
+  <file path="src/app/components/header/header.component.spec.ts">
+    <testCase name="HeaderComponent should create" duration="980"/>
   </file>
   <file path="src/app/components/shearch-box/shearch-box.component.spec.ts">
-    <testCase name="ShearchBoxComponent should create" duration="16"/>
+    <testCase name="ShearchBoxComponent should create" duration="244"/>
+  </file>
+  <file path="src/app/components/player/player.component.spec.ts">
+    <testCase name="PlayerComponent should create" duration="144"/>
+  </file>
+  <file path="src/app/pages/library/library.component.spec.ts">
+    <testCase name="LibraryComponent should create" duration="122"/>
+  </file>
+  <file path="src/app/pages/show/show.component.spec.ts">
+    <testCase name="ShowComponent should create" duration="32"/>
+    <testCase name="ShowComponent should get all info from artist" duration="48"/>
+  </file>
+  <file path="src/app/components/youtube-player/youtube-player.component.spec.ts">
+    <testCase name="YoutubePlayerComponent should create" duration="53"/>
+  </file>
+  <file path="src/app/components/volume-box/volume-box.component.spec.ts">
+    <testCase name="VolumeBoxComponent should create" duration="18"/>
+  </file>
+  <file path="src/app/pages/album/album.component.spec.ts">
+    <testCase name="AlbumComponent should create" duration="15"/>
+    <testCase name="AlbumComponent should get an album" duration="26">
+      <failure message="Error">HttpErrorResponse: Http failure response for https://api.spotify.com/v1/shows/undefined/episodes?limit=50: 401 OK
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/pages/podcasts/podcasts.component.spec.ts">
+    <testCase name="PodcastsComponent should create" duration="20"/>
+  </file>
+  <file path="src/app/pages/playlist/playlist.component.spec.ts">
+    <testCase name="PlaylistComponent should create" duration="13"/>
+  </file>
+  <file path="src/app/pages/login/login-callback/login-callback.component.spec.ts">
+    <testCase name="LoginCallbackComponent should create" duration="23"/>
+  </file>
+  <file path="src/app/pages/login/login-authenticate/login-authenticate.component.spec.ts">
+    <testCase name="LoginAuthenticateComponent should create" duration="12"/>
+    <testCase name="LoginAuthenticateComponent should be redirect to spotify authorization page" duration="16"/>
+  </file>
+  <file path="src/app/pages/artist/artist.component.spec.ts">
+    <testCase name="ArtistComponent should create" duration="34"/>
+    <testCase name="ArtistComponent should get all info from artist" duration="33"/>
+  </file>
+  <file path="src/app/pages/search/search.component.spec.ts">
+    <testCase name="SearchComponent should create" duration="16"/>
+  </file>
+  <file path="src/app/pages/home/home.component.spec.ts">
+    <testCase name="HomeComponent should create" duration="35"/>
   </file>
   <file path="src/app/components/content-list/content-list.component.spec.ts">
     <testCase name="ContentListComponent should create" duration="11"/>
-    <testCase name="ContentListComponent testing getRootItem method" duration="11"/>
+    <testCase name="ContentListComponent testing getRootItem method" duration="16"/>
   </file>
-  <file path="src/app/components/header/header.component.spec.ts">
-    <testCase name="HeaderComponent should create" duration="9"/>
-  </file>
-  <file path="src/app/components/language-switcher/language-switcher.component.spec.ts">
-    <testCase name="LanguageSwitcherComponent should create" duration="6"/>
-  </file>
-  <file path="src/app/pages/playlist/playlist.component.spec.ts">
-    <testCase name="PlaylistComponent should create" duration="24"/>
-  </file>
-  <file path="src/app/pages/login/login-callback/login-callback.component.spec.ts">
-    <testCase name="LoginCallbackComponent should create" duration="20"/>
-  </file>
-  <file path="src/app/pages/login/login-authenticate/login-authenticate.component.spec.ts">
-    <testCase name="LoginAuthenticateComponent should create" duration="9"/>
-    <testCase name="LoginAuthenticateComponent should be redirect to spotify authorization page" duration="13"/>
-  </file>
-  <file path="src/app/pages/library/library.component.spec.ts">
-    <testCase name="LibraryComponent should create" duration="37"/>
-  </file>
-  <file path="src/app/pages/home/home.component.spec.ts">
-    <testCase name="HomeComponent should create" duration="34"/>
-  </file>
-  <file path="src/app/pages/artist/artist.component.spec.ts">
-    <testCase name="ArtistComponent should create" duration="35"/>
-    <testCase name="ArtistComponent should get all info from artist" duration="31"/>
-  </file>
-  <file path="src/app/pages/search/search.component.spec.ts">
-    <testCase name="SearchComponent should create" duration="7"/>
-  </file>
-  <file path="src/app/pages/podcasts/podcasts.component.spec.ts">
-    <testCase name="PodcastsComponent should create" duration="18"/>
-  </file>
-  <file path="src/app/pages/album/album.component.spec.ts">
-    <testCase name="AlbumComponent should create" duration="17"/>
-    <testCase name="AlbumComponent should get an album" duration="15"/>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="44"/>
   </file>
   <file path="src/app/pages/settings/settings.component.spec.ts">
-    <testCase name="SettingsComponent should create" duration="9"/>
-  </file>
-  <file path="src/app/components/volume-box/volume-box.component.spec.ts">
-    <testCase name="VolumeBoxComponent should create" duration="8"/>
-  </file>
-  <file path="src/app/components/youtube-player/youtube-player.component.spec.ts">
-    <testCase name="YoutubePlayerComponent should create" duration="15"/>
-  </file>
-  <file path="src/app/pages/show/show.component.spec.ts">
-    <testCase name="ShowComponent should get all info from artist" duration="39"/>
-    <testCase name="ShowComponent should create" duration="19"/>
+    <testCase name="SettingsComponent should create" duration="10"/>
   </file>
 </testExecutions>
