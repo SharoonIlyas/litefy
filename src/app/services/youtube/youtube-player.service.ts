@@ -112,7 +112,9 @@ export class YoutubePlayerService {
                 break;
             case 100:
                 break;
-            case 101 || 150:
+            case 101:
+                break;
+            case 150:
                 break;
         }
     }
