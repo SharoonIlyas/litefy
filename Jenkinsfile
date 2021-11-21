@@ -5,7 +5,7 @@ node{
     }
 
     stage("Installing Node"){
-      sh "sudo apt install npm"
+      sh "apt install npm"
     }
 
     stage('Install node modules'){
