@@ -1,9 +1,10 @@
 /* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
-import { By } from "@angular/platform-browser";
-import { DebugElement } from "@angular/core";
+import {async, ComponentFixture, TestBed} from "@angular/core/testing";
+import {By} from "@angular/platform-browser";
+import {DebugElement} from "@angular/core";
 
-import { YoutubePlayerComponent } from "./youtube-player.component";
+import {YoutubePlayerComponent} from "./youtube-player.component";
+import {AppModule} from "../../app.module";
 
 describe("YoutubePlayerComponent", () => {
     let component: YoutubePlayerComponent;
@@ -12,6 +13,7 @@ describe("YoutubePlayerComponent", () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
             declarations: [YoutubePlayerComponent],
+            imports: [AppModule]
         }).compileComponents();
     }));
 

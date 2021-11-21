@@ -13,6 +13,7 @@ describe('SettingsComponent', () => {
         TestBed.configureTestingModule({
             declarations: [SettingsComponent],
             imports: [AppModule]
+
         })
             .compileComponents();
     }));

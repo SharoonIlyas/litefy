@@ -1,273 +1,77 @@
 <testExecutions version="1">
-  <file path="src/app/pages/settings/settings.component.spec.ts">
-    <testCase name="SettingsComponent should create" duration="312">
-      <failure message="Error">Error: The pipe 'translate' could not be found! in http://localhost:9876/_karma_webpack_/vendor.js (line 76772)
-getPipeDef$1@http://localhost:9876/_karma_webpack_/vendor.js:76772:11
-ɵɵpipe@http://localhost:9876/_karma_webpack_/vendor.js:76729:19
-SettingsComponent_Template@ng:///SettingsComponent.js:50:21
-executeTemplate@http://localhost:9876/_karma_webpack_/vendor.js:59505:19
-renderView@http://localhost:9876/_karma_webpack_/vendor.js:59312:28
-renderComponent@http://localhost:9876/_karma_webpack_/vendor.js:60568:15
-renderChildComponents@http://localhost:9876/_karma_webpack_/vendor.js:59186:24
-renderView@http://localhost:9876/_karma_webpack_/vendor.js:59337:34
-create@http://localhost:9876/_karma_webpack_/vendor.js:76096:23
-initComponent@http://localhost:9876/_karma_webpack_/vendor.js:88721:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:79552:33
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-run@http://localhost:9876/_karma_webpack_/vendor.js:79434:28
-createComponent@http://localhost:9876/_karma_webpack_/vendor.js:88724:41
-createComponent@http://localhost:9876/_karma_webpack_/vendor.js:88600:37
-rF3s/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:33831:81
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
-
-Expected undefined to be truthy.
-&lt;Jasmine&gt;
-rF3s/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:33836:27
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
-</failure>
-    </testCase>
+  <file path="src/app/components/content-list/content-list.component.spec.ts">
+    <testCase name="ContentListComponent should create" duration="251"/>
+    <testCase name="ContentListComponent testing getRootItem method" duration="16"/>
   </file>
-  <file path="src/app/pages/search/search.component.spec.ts">
-    <testCase name="SearchComponent should create" duration="59"/>
-  </file>
-  <file path="src/app/components/player/player.component.spec.ts">
-    <testCase name="PlayerComponent should create" duration="26"/>
-  </file>
-  <file path="src/app/pages/login/login-callback/login-callback.component.spec.ts">
-    <testCase name="LoginCallbackComponent should create" duration="22"/>
-  </file>
-  <file path="src/app/components/shearch-box/shearch-box.component.spec.ts">
-    <testCase name="ShearchBoxComponent should create" duration="23"/>
-  </file>
-  <file path="src/app/pages/login/login-authenticate/login-authenticate.component.spec.ts">
-    <testCase name="LoginAuthenticateComponent should create" duration="13"/>
-  </file>
-  <file path="src/app/components/language-switcher/language-switcher.component.spec.ts">
-    <testCase name="LanguageSwitcherComponent should create" duration="18"/>
-  </file>
-  <file path="src/app/pages/podcasts/podcasts.component.spec.ts">
-    <testCase name="PodcastsComponent should create" duration="18"/>
-  </file>
-  <file path="src/app/components/volume-box/volume-box.component.spec.ts">
-    <testCase name="VolumeBoxComponent should create" duration="4">
-      <failure message="Error">Error: Unexpected value 'HttpClient' imported by the module 'DynamicTestModule'. Please add an @NgModule annotation. in http://localhost:9876/_karma_webpack_/vendor.js (line 77978)
-verifySemanticsOfNgModuleDef@http://localhost:9876/_karma_webpack_/vendor.js:77978:19
-verifySemanticsOfNgModuleDef/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:77989:37
-verifySemanticsOfNgModuleDef@http://localhost:9876/_karma_webpack_/vendor.js:77987:60
-get@http://localhost:9876/_karma_webpack_/vendor.js:77950:21
-applyProviderOverridesToModule@http://localhost:9876/_karma_webpack_/vendor.js:88056:29
-compileTestModule@http://localhost:9876/_karma_webpack_/vendor.js:88301:14
-finalize@http://localhost:9876/_karma_webpack_/vendor.js:87910:14
-&lt;Jasmine&gt;
-inject@http://localhost:9876/_karma_webpack_/vendor.js:88668:24
-createComponent@http://localhost:9876/_karma_webpack_/vendor.js:88707:44
-createComponent@http://localhost:9876/_karma_webpack_/vendor.js:88600:37
-hNJ8/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:31914:81
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
-
-Expected undefined to be truthy.
-&lt;Jasmine&gt;
-hNJ8/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:31919:27
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
-</failure>
-    </testCase>
-  </file>
-  <file path="src/app/pages/playlist/playlist.component.spec.ts">
-    <testCase name="PlaylistComponent should create" duration="17"/>
-  </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="25"/>
-  </file>
-  <file path="src/app/pages/home/home.component.spec.ts">
-    <testCase name="HomeComponent should create" duration="26"/>
-  </file>
-  <file path="src/app/pages/artist/artist.component.spec.ts">
-    <testCase name="ArtistComponent should create" duration="24"/>
-    <testCase name="ArtistComponent should get all info from artist" duration="40">
-      <failure message="Error">TypeError: this.settings is null in http://localhost:9876/_karma_webpack_/main.js (line 33549)
-canLoadImage@http://localhost:9876/_karma_webpack_/main.js:33549:5
-ArtistComponent_div_0_Template@ng:///ArtistComponent.js:87:69
-executeTemplate@http://localhost:9876/_karma_webpack_/vendor.js:59505:19
-refreshView@http://localhost:9876/_karma_webpack_/vendor.js:59374:28
-refreshEmbeddedViews@http://localhost:9876/_karma_webpack_/vendor.js:60475:28
-refreshView@http://localhost:9876/_karma_webpack_/vendor.js:59398:29
-refreshComponent@http://localhost:9876/_karma_webpack_/vendor.js:60521:24
-refreshChildComponents@http://localhost:9876/_karma_webpack_/vendor.js:59180:25
-refreshView@http://localhost:9876/_karma_webpack_/vendor.js:59424:35
-renderComponentOrTemplate@http://localhost:9876/_karma_webpack_/vendor.js:59488:20
-tickRootContext@http://localhost:9876/_karma_webpack_/vendor.js:60695:34
-detectChangesInRootView@http://localhost:9876/_karma_webpack_/vendor.js:60720:20
-detectChanges@http://localhost:9876/_karma_webpack_/vendor.js:61985:32
-_tick@http://localhost:9876/_karma_webpack_/vendor.js:86968:32
-detectChanges/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:86981:22
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:79552:33
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-run@http://localhost:9876/_karma_webpack_/vendor.js:79434:28
-detectChanges@http://localhost:9876/_karma_webpack_/vendor.js:86980:25
-85kO/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:5989:17
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
-</failure>
-    </testCase>
+  <file path="src/app/pages/show/show.component.spec.ts">
+    <testCase name="ShowComponent should get all info from artist" duration="34"/>
+    <testCase name="ShowComponent should create" duration="19"/>
   </file>
   <file path="src/app/components/header/header.component.spec.ts">
-    <testCase name="HeaderComponent should create" duration="14"/>
+    <testCase name="HeaderComponent should create" duration="23"/>
   </file>
-  <file path="src/app/pages/library/library.component.spec.ts">
-    <testCase name="LibraryComponent should create" duration="19"/>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="18"/>
   </file>
-  <file path="src/app/components/content-list/content-list.component.spec.ts">
-    <testCase name="ContentListComponent testing getRootItem method" duration="18"/>
-    <testCase name="ContentListComponent should create" duration="15">
-      <failure message="Error">TypeError: this.user is null in http://localhost:9876/_karma_webpack_/main.js (line 14991)
-ngOnInit/&lt;@http://localhost:9876/_karma_webpack_/main.js:14991:7
-__tryOrUnsub@http://localhost:9876/_karma_webpack_/vendor.js:40047:16
-next@http://localhost:9876/_karma_webpack_/vendor.js:39986:22
-_next@http://localhost:9876/_karma_webpack_/vendor.js:39936:26
-next@http://localhost:9876/_karma_webpack_/vendor.js:39913:18
-_subscribe@http://localhost:9876/_karma_webpack_/vendor.js:30080:24
-_trySubscribe@http://localhost:9876/_karma_webpack_/vendor.js:41837:25
-_trySubscribe@http://localhost:9876/_karma_webpack_/vendor.js:49626:26
-subscribe@http://localhost:9876/_karma_webpack_/vendor.js:41823:22
-_subscribe@http://localhost:9876/_karma_webpack_/vendor.js:41871:33
-subscribe@http://localhost:9876/_karma_webpack_/vendor.js:41822:22
-ngOnInit@http://localhost:9876/_karma_webpack_/main.js:14986:32
-callHook@http://localhost:9876/_karma_webpack_/vendor.js:55288:18
-callHooks@http://localhost:9876/_karma_webpack_/vendor.js:55258:25
-executeInitAndCheckHooks@http://localhost:9876/_karma_webpack_/vendor.js:55210:18
-refreshView@http://localhost:9876/_karma_webpack_/vendor.js:59389:45
-renderComponentOrTemplate@http://localhost:9876/_karma_webpack_/vendor.js:59488:20
-tickRootContext@http://localhost:9876/_karma_webpack_/vendor.js:60695:34
-detectChangesInRootView@http://localhost:9876/_karma_webpack_/vendor.js:60720:20
-detectChanges@http://localhost:9876/_karma_webpack_/vendor.js:61985:32
-_tick@http://localhost:9876/_karma_webpack_/vendor.js:86968:32
-detectChanges/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:86981:22
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:79552:33
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-run@http://localhost:9876/_karma_webpack_/vendor.js:79434:28
-detectChanges@http://localhost:9876/_karma_webpack_/vendor.js:86980:25
-CU/B/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:10397:17
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:45166:38
-wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45181:24
-&lt;Jasmine&gt;
-runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:51
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3156:30
-QpwO/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:44913:43
-invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3155:36
-run@http://localhost:9876/_karma_webpack_/polyfills.js:2915:47
-runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45762:33
-QpwO/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:45596:39
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3191:35
-runTask@http://localhost:9876/_karma_webpack_/polyfills.js:2959:51
-invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3272:38
-ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3261:52
-timer@http://localhost:9876/_karma_webpack_/polyfills.js:5344:33
+  <file path="src/app/components/volume-box/volume-box.component.spec.ts">
+    <testCase name="VolumeBoxComponent should create" duration="14"/>
+  </file>
+  <file path="src/app/pages/playlist/playlist.component.spec.ts">
+    <testCase name="PlaylistComponent should create" duration="12"/>
+  </file>
+  <file path="src/app/pages/artist/artist.component.spec.ts">
+    <testCase name="ArtistComponent should create" duration="17"/>
+    <testCase name="ArtistComponent should get all info from artist" duration="34">
+      <failure message="Error">TypeError: Cannot read properties of null (reading 'find')
+    at ArtistComponent.canLoadImage (http://localhost:9877/_karma_webpack_/main.js:33657:26)
+    at ArtistComponent_div_0_Template (ng:///ArtistComponent.js:87:69)
+    at executeTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7498:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7367:1)
+    at refreshEmbeddedViews (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8468:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7391:1)
+    at refreshComponent (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:8514:1)
+    at refreshChildComponents (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7173:1)
+    at refreshView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7417:1)
+    at renderComponentOrTemplate (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:7481:1)
 </failure>
     </testCase>
+  </file>
+  <file path="src/app/pages/home/home.component.spec.ts">
+    <testCase name="HomeComponent should create" duration="23"/>
+  </file>
+  <file path="src/app/components/player/player.component.spec.ts">
+    <testCase name="PlayerComponent should create" duration="16"/>
+  </file>
+  <file path="src/app/pages/search/search.component.spec.ts">
+    <testCase name="SearchComponent should create" duration="17"/>
+  </file>
+  <file path="src/app/pages/library/library.component.spec.ts">
+    <testCase name="LibraryComponent should create" duration="17"/>
+  </file>
+  <file path="src/app/pages/podcasts/podcasts.component.spec.ts">
+    <testCase name="PodcastsComponent should create" duration="13"/>
+  </file>
+  <file path="src/app/components/shearch-box/shearch-box.component.spec.ts">
+    <testCase name="ShearchBoxComponent should create" duration="17"/>
+  </file>
+  <file path="src/app/components/youtube-player/youtube-player.component.spec.ts">
+    <testCase name="YoutubePlayerComponent should create" duration="19"/>
+  </file>
+  <file path="src/app/pages/login/login-callback/login-callback.component.spec.ts">
+    <testCase name="LoginCallbackComponent should create" duration="11"/>
+  </file>
+  <file path="src/app/pages/settings/settings.component.spec.ts">
+    <testCase name="SettingsComponent should create" duration="10"/>
+  </file>
+  <file path="src/app/components/language-switcher/language-switcher.component.spec.ts">
+    <testCase name="LanguageSwitcherComponent should create" duration="19"/>
+  </file>
+  <file path="src/app/pages/login/login-authenticate/login-authenticate.component.spec.ts">
+    <testCase name="LoginAuthenticateComponent should create" duration="9"/>
+    <testCase name="LoginAuthenticateComponent should be redirect to spotify authorization page" duration="19"/>
+  </file>
+  <file path="src/app/pages/album/album.component.spec.ts">
+    <testCase name="AlbumComponent should get an album" duration="21"/>
+    <testCase name="AlbumComponent should create" duration="12"/>
   </file>
 </testExecutions>

@@ -83,10 +83,7 @@ export class ContentListComponent extends SettingsBase implements OnInit {
     }
 
     getRootItem(item: any) {
-        if (this.rootItem) {
-            return item[this.rootItem];
-        }
-
+        if (this.rootItem) { return item[this.rootItem]; }
         return item;
     }
 

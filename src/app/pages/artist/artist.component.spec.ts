@@ -1,9 +1,10 @@
-import { SpotifyArtistService } from './../../services/spotify-artist.service';
-import { AppModule } from './../../app.module';
+import { SpotifyArtistService } from '../../services/spotify-artist.service';
+import { AppModule } from '../../app.module';
 import { waitForAsync, ComponentFixture, inject, TestBed } from '@angular/core/testing';
 
 import { ArtistComponent } from './artist.component';
 import { of } from 'rxjs/internal/observable/of';
+import {ActivatedRoute} from "@angular/router";
 
 describe('ArtistComponent', () => {
   let component: ArtistComponent;
@@ -13,7 +14,13 @@ describe('ArtistComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ArtistComponent],
-      imports: [AppModule]
+      imports: [AppModule],
+        providers: [{
+            provide: ActivatedRoute,
+            useValue: {
+                params: of({id: '4Ul2fXqMbl2cdIULyOae4l'})
+            }
+        }]
     })
       .compileComponents();
   }));
@@ -2098,6 +2105,7 @@ describe('ArtistComponent', () => {
     component.getAllInfoFromArtist();
 
     fixture.detectChanges();
+    console.log(component.artist);
     expect(component.artist).toEqual(responseArtist);
   });
 });

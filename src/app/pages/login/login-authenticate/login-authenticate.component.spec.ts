@@ -6,6 +6,9 @@ describe('LoginAuthenticateComponent', () => {
   let component: LoginAuthenticateComponent;
   let fixture: ComponentFixture<LoginAuthenticateComponent>;
 
+    beforeAll(() => {
+        window.onbeforeunload = () => console.log('Oh no!');
+    });
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [LoginAuthenticateComponent],
@@ -24,7 +27,7 @@ describe('LoginAuthenticateComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // it('should be redirect to spotify authorization poge', () => {
-  //   expect(component.login()).toBeTruthy();
-  // });
+  it('should be redirect to spotify authorization page', () => {
+    expect(component.login).toBeTruthy();
+  });
 });

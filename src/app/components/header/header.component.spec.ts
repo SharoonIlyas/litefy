@@ -1,4 +1,4 @@
-import { AppModule } from './../../app.module';
+import { AppModule } from '../../app.module';
 import {  ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { HeaderComponent } from './header.component';
 
