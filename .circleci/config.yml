@@ -1,7 +1,5 @@
 version: 2
 
-<<<<<<< HEAD
-=======
 orbs:
   # The Node.js orb contains a set of prepackaged CircleCI configuration you can utilize
   # Orbs reduce the amount of configuration required for common tasks.
@@ -38,7 +36,6 @@ workflows:
   # CircleCI will run this workflow on every commit.
   # For more details on extending your workflow, see the configuration docs: https://circleci.com/docs/2.0/configuration-reference/#workflows
   sample:
->>>>>>> ceaf65dc165a58c2628e46e5369cd0668ba6038f
     jobs:
         # The test job
         test:
