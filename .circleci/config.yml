@@ -11,3 +11,9 @@ jobs:
             - run:
                 name: Testing
                 command: npm run test --no-watch --no-progress --browsers=ChromeHeadlessCI
+                
+workflows:
+  version: 2.1
+  build_and_deploy:
+    jobs:
+      - test
