@@ -34,7 +34,6 @@ workflows:
   # CircleCI will run this workflow on every commit.
   # For more details on extending your workflow, see the configuration docs: https://circleci.com/docs/2.0/configuration-reference/#workflows
   sample:
->>>>>>> 249c1adf60dd8e204a7fc1905536ca45e4914373
     jobs:
         # The test job
         test:
